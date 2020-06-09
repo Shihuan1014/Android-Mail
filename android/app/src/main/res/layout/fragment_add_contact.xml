@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/fragment"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <ImageView
+            android:id="@+id/button_back"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:padding="15dp"
+            android:src="@drawable/ic_left_arrow"
+            >
+        </ImageView>
+        <TextView
+            android:id="@+id/button_add"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:paddingHorizontal="15dp"
+            android:layout_alignParentRight="true"
+            android:textColor="#0F85DF"
+            android:text="完成"
+            >
+        </TextView>
+
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#e8e8e8"
+            android:paddingHorizontal="15dp"
+            android:paddingVertical="10dp"
+            android:text="姓名">
+        </TextView>
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="15dp"
+            android:paddingVertical="15dp"
+            android:background="@null"
+            android:hint="输入姓名"
+            >
+
+        </EditText>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#e8e8e8"
+            android:paddingHorizontal="15dp"
+            android:paddingVertical="10dp"
+            android:text="邮箱地址">
+        </TextView>
+        <EditText
+            android:id="@+id/mail_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="15dp"
+            android:paddingVertical="15dp"
+            android:background="@null"
+            android:hint="输入邮箱地址"
+            >
+
+        </EditText>
+    </LinearLayout>
+</LinearLayout>

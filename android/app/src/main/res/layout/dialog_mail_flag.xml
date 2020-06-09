@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFF"
+    android:paddingVertical="15dp"
+    >
+    <TextView
+        android:id="@+id/second"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="标记未读"
+        android:textColor="#050505"
+        android:gravity="center"
+        android:paddingVertical="15dp"
+        android:background="@drawable/border_bottom_1px"
+        ></TextView>
+    <TextView
+        android:id="@+id/first"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="星标邮件"
+        android:textColor="#050505"
+        android:gravity="center"
+        android:paddingVertical="15dp"
+        ></TextView>
+</LinearLayout>

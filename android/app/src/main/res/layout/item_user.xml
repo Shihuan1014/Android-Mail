@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/layout_account"
+    android:background="@drawable/mailbox_selector"
+    android:gravity="center"
+    >
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UserAddress"
+        android:layout_weight="1"
+        android:textColor="#050505"
+        android:paddingLeft="15dp"
+        android:paddingVertical="15dp"
+        >
+    </TextView>
+    <TextView
+        android:id="@+id/right_text"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        >
+
+    </TextView>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:paddingVertical="18dp"
+        android:src="@drawable/ic_right_arrow"
+        >
+
+    </ImageView>
+</LinearLayout>

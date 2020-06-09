@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/title"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="1dip"
+    android:paddingLeft="3dip"
+    android:paddingRight="3dip"
+    android:singleLine="true"
+    android:ellipsize="marquee"
+    android:textSize="18.0dip"
+    android:fadingEdge="horizontal"
+    android:textColor="#050505"
+    />
